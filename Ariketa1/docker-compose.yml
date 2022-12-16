@@ -15,7 +15,7 @@ services:
         networks:
             - network_test
     www:
-        build: jsalcedo90/ejemplodockerlaravel:1.1
+        image: jsalcedo90/ejemplodockerlaravel:1.1
         ports: 
             - 80:80
         environment:
